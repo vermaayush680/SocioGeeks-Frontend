@@ -16,7 +16,7 @@ const ProfilePage = () => {
   const isNonMobileScreens = useMediaQuery("(min-width:1000px)");
 
   const getUser = async () => {
-    const response = await axios(`http://localhost:3001/user/${userId}`, {
+    const response = await axios(`https://app-5829c58f-c705-4acc-9979-3de5891c6144.cleverapps.io/user/${userId}`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });

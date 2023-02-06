@@ -9,7 +9,7 @@ const UserImage = ({image, size="60px"}) => {
             width={size} 
             height={size} 
             alt="user" 
-            src={`http://localhost:3001/assets/${image}`}
+            src={`https://app-5829c58f-c705-4acc-9979-3de5891c6144.cleverapps.io/assets/${image}`}
             />
 
         </Box>

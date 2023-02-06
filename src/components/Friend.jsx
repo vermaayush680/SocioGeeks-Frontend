@@ -24,7 +24,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await axios(
-      `http://localhost:3001/user/${_id}/${friendId}`,
+      `https://app-5829c58f-c705-4acc-9979-3de5891c6144.cleverapps.io/user/${_id}/${friendId}`,
       {
         method: "POST",
         headers: {

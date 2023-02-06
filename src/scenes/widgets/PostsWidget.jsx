@@ -10,7 +10,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
   const token = useSelector((state) => state.token);
 
   const getPosts = async () => {
-    const response = await axios("http://localhost:3001/posts", {
+    const response = await axios("https://app-5829c58f-c705-4acc-9979-3de5891c6144.cleverapps.io/posts", {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });
@@ -20,7 +20,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
 
   const getUserPosts = async () => {
     const response = await axios(
-      `http://localhost:3001/posts/${userId}/posts`,
+      `https://app-5829c58f-c705-4acc-9979-3de5891c6144.cleverapps.io/posts/${userId}/posts`,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
