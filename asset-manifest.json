@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/SocioGeeks-Frontend/static/css/main.b62ea404.css",
-    "main.js": "/SocioGeeks-Frontend/static/js/main.b9b4aa84.js",
+    "main.js": "/SocioGeeks-Frontend/static/js/main.845bfc5b.js",
     "index.html": "/SocioGeeks-Frontend/index.html",
     "main.b62ea404.css.map": "/SocioGeeks-Frontend/static/css/main.b62ea404.css.map",
-    "main.b9b4aa84.js.map": "/SocioGeeks-Frontend/static/js/main.b9b4aa84.js.map"
+    "main.845bfc5b.js.map": "/SocioGeeks-Frontend/static/js/main.845bfc5b.js.map"
   },
   "entrypoints": [
     "static/css/main.b62ea404.css",
-    "static/js/main.b9b4aa84.js"
+    "static/js/main.845bfc5b.js"
   ]
 }
