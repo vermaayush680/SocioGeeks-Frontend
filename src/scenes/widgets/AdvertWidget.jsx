@@ -20,7 +20,7 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src="https://app-5829c58f-c705-4acc-9979-3de5891c6144.cleverapps.io/assets/info4.jpeg"
+        src="https://sociogeeks-backend.onrender.com/assets/info4.jpeg"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>
