@@ -48,7 +48,7 @@ const MyPostWidget = ({ picturePath }) => {
       formData.append("picturePath", image.name);
     }
 
-    const response = await axios(`https://app-5829c58f-c705-4acc-9979-3de5891c6144.cleverapps.io/posts/createPost`, {
+    const response = await axios(`https://sociogeeks-backend.onrender.com/posts/createPost`, {
       method: "POST",
       headers: { Authorization: `Bearer ${token}` },
       body: formData,
