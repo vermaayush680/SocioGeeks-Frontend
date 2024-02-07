@@ -67,7 +67,7 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await axios(
-      "https://app-5829c58f-c705-4acc-9979-3de5891c6144.cleverapps.io/auth/register",
+      "https://sociogeeks-backend.onrender.com/auth/register",
       {
         method: "POST",
         headers: { "Content-Type": "application/json"},
@@ -83,7 +83,7 @@ const Form = () => {
   };
 
   const login = async (values, onSubmitProps) => {
-    const loggedInResponse = await axios("https://app-5829c58f-c705-4acc-9979-3de5891c6144.cleverapps.io/auth/login", {
+    const loggedInResponse = await axios("https://sociogeeks-backend.onrender.com/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json"},
       data: JSON.stringify(values),
