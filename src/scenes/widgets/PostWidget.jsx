@@ -36,7 +36,7 @@ const PostWidget = ({
   const primary = palette.primary.main;
 
   const patchLike = async () => {
-    const response = await axios(`https://app-5829c58f-c705-4acc-9979-3de5891c6144.cleverapps.io/posts/${postId}/like`, {
+    const response = await axios(`https://sociogeeks-backend.onrender.com/posts/${postId}/like`, {
       method: "POST",
       headers: {
         Authorization: `Bearer ${token}`,
@@ -65,7 +65,7 @@ const PostWidget = ({
           height="auto"
           alt="post"
           style={{ borderRadius: "0.75rem", marginTop: "0.75rem" }}
-          src={`https://app-5829c58f-c705-4acc-9979-3de5891c6144.cleverapps.io/assets/${picturePath}`}
+          src={`https://sociogeeks-backend.onrender.com/assets/${picturePath}`}
         />
       )}
       <FlexBetween mt="0.25rem">
