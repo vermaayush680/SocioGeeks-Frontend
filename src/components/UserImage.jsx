@@ -9,7 +9,7 @@ const UserImage = ({image, size="60px"}) => {
             width={size} 
             height={size} 
             alt="user" 
-            src={`https://sociogeeks-backend.onrender.com/assets/${image}`}
+            src={`https://socio-geeks-backend.vercel.app/assets/${image}`}
             />
 
         </Box>

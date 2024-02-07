@@ -48,7 +48,7 @@ const MyPostWidget = ({ picturePath }) => {
       formData.append("picturePath", image.name);
     }
 
-    const response = await axios(`https://sociogeeks-backend.onrender.com/posts/createPost`, {
+    const response = await axios(`https://socio-geeks-backend.vercel.app/posts/createPost`, {
       method: "POST",
       headers: { Authorization: `Bearer ${token}` },
       body: formData,

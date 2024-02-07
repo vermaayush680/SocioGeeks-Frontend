@@ -24,7 +24,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await axios(
-      `https://sociogeeks-backend.onrender.com/user/${_id}/${friendId}`,
+      `https://socio-geeks-backend.vercel.app/user/${_id}/${friendId}`,
       {
         method: "POST",
         headers: {

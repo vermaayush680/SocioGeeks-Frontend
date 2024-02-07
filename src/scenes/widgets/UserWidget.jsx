@@ -23,7 +23,7 @@ const UserWidget = ({ userId, picturePath }) => {
   const main = palette.neutral.main;
 
   const getUser = async () => {
-    const response = await axios(`https://sociogeeks-backend.onrender.com/user/${userId}`, {
+    const response = await axios(`https://socio-geeks-backend.vercel.app/user/${userId}`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });

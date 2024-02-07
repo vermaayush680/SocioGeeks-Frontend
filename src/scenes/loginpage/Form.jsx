@@ -67,7 +67,7 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await axios(
-      "https://sociogeeks-backend.onrender.com/auth/register",
+      "https://socio-geeks-backend.vercel.app/auth/register",
       {
         method: "POST",
         headers: { "Content-Type": "application/json"},
@@ -83,7 +83,7 @@ const Form = () => {
   };
 
   const login = async (values, onSubmitProps) => {
-    const loggedInResponse = await axios("https://sociogeeks-backend.onrender.com/auth/login", {
+    const loggedInResponse = await axios("https://socio-geeks-backend.vercel.app/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json"},
       data: JSON.stringify(values),

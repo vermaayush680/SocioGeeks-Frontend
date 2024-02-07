@@ -14,7 +14,7 @@ const FriendListWidget = ({ userId }) => {
 
   const getFriends = async () => {
     const response = await axios(
-      `https://sociogeeks-backend.onrender.com/user/${userId}/friends`,
+      `https://socio-geeks-backend.vercel.app/user/${userId}/friends`,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
